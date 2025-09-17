@@ -17,9 +17,21 @@ body {
 h1 {
   color: var(--secondary);
 
+/* Make the brand name act as a home button */
+.top-bar h1 {
+  margin: 0; /* avoid extra vertical space */
+}
+.brand-link {
+  color: var(--text);
+  text-decoration: none;
+}
+.brand-link:hover {
+  text-decoration: underline;
+}
+  font-size: 61px;
 }
 p {
-
+    font-size: 31px;
     color: var(--text);
 
 
@@ -27,6 +39,19 @@ p {
 
 
 
+
+}
+.content-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 25px;
+}
+
+.side-image {
+  width: 600px;
+  height: auto;
+  border-radius: 8px;
 }
 .button {
     
@@ -39,6 +64,8 @@ p {
   cursor: pointer;
   justify-content: flex-end;
   border-radius: 8px;
+  text-decoration: none; /* works for <a> */
+  display: inline-block; /* size like a button */
 
 }
 
@@ -49,5 +76,6 @@ p {
   display: flex;
   gap: 20px;
   align-items: center;
-  border-radius: 8px
+  border-radius: 8px;
 }
+
