@@ -1,0 +1,41 @@
+/* Color Palette */
+:root {
+  --main-bg: #F2F2F2;
+  --accent-bg: #EAE4D5;
+  --secondary: #B6B09F;
+  --text: #000000;
+}
+
+/* Body styles */
+body {
+  background-color: var(--main-bg);
+  color: var(--text);
+  font-family:  "JetBrainsMono Nerd Font", regular;
+}
+
+/* Example header */
+h1 {
+  color: var(--secondary);
+}
+
+.button {
+  border: none;
+  color: var(--secondary);
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 31px;
+  margin: 4px 2px;
+  cursor: pointer;
+  justify-content: flex-end;
+  border-radius: 8px
+}
+
+.top-bar {
+  background-color: var(--accent-bg);
+  color: var(--text);
+  padding: 15px 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 8px
+}
