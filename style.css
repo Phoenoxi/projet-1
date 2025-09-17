@@ -1,4 +1,4 @@
-/* Color Palette */
+/*Color Pallette*/
 :root {
   --main-bg: #F2F2F2;
   --accent-bg: #EAE4D5;
@@ -6,19 +6,30 @@
   --text: #000000;
 }
 
-/* Body styles */
+
 body {
   background-color: var(--main-bg);
   color: var(--text);
   font-family:  "JetBrainsMono Nerd Font", regular;
 }
 
-/* Example header */
+
 h1 {
   color: var(--secondary);
-}
 
+}
+p {
+
+    color: var(--text);
+
+
+
+
+
+
+}
 .button {
+    
   border: none;
   color: var(--secondary);
   padding: 15px 32px;
@@ -27,7 +38,8 @@ h1 {
   margin: 4px 2px;
   cursor: pointer;
   justify-content: flex-end;
-  border-radius: 8px
+  border-radius: 8px;
+
 }
 
 .top-bar {
