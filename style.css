@@ -1,3 +1,6 @@
+/* Import JetBrains Mono (web font) */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
+
 /*Color Pallette*/
 :root {
   --main-bg: #1B262C;
@@ -10,12 +13,15 @@
 body {
   background-color: var(--main-bg);
   color: var(--text);
-  font-family:  "JetBrainsMono Nerd Font", regular;
+  /* Use web font with fallbacks; remove invalid 'regular' token */
+  font-family: 'JetBrains Mono', Consolas, 'Courier New', monospace;
 }
 
 
 h1 {
   color: var(--secondary);
+  font-size: 61px;
+}
 
 /* Make the brand name act as a home button */
 .top-bar h1 {
@@ -27,8 +33,6 @@ h1 {
 }
 .brand-link:hover {
   text-decoration: underline;
-}
-  font-size: 61px;
 }
 p {
     font-size: 31px;
