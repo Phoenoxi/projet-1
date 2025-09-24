@@ -44,12 +44,39 @@ p {
     color: var(--text);
 
 
+}
 
 
 
+ul {
+    font-size: 31px;
+    color: var(--text);
 
 
 }
+
+/* Services section with background image */
+.services-section {
+  position: relative;
+  background: url('images/index/index_image.png') center/cover no-repeat;
+  padding: 60px 40px;
+  margin: 40px 25px;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;              /* permet d'utiliser margin-left:auto sur l'enfant */
+}
+
+/* Container (HTML uses class="services-list") pushed to the right */
+.services-list {
+  width: fit-content;         /* prend juste la largeur du contenu */
+  margin-left: auto;          /* pousse le bloc sur la droite */
+            /* aligne le texte interne à droite */
+}
+
+
+
+
+
 .content-row {
   display: flex;
   align-items: center;
@@ -100,3 +127,10 @@ p {
   font-size: 20px;
 }
 
+.image-projets {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 6px solid var(--secondary); /* Ajoute une bordure bleue */
+}
