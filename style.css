@@ -95,3 +95,10 @@ p {
   font-size: 20px;
 }
 
+.image-projets {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 6px solid var(--secondary); /* Ajoute une bordure bleue */
+}
