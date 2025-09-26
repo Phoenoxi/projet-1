@@ -1,3 +1,47 @@
+/* Centrage de la photo du coéquipier */
+.photo-coequipier {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+/* Photo individuelle grand format rectangle pour page membre */
+.photo-membre-grand {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.nom-coequipier a {
+  color: var(--secondary);
+}
+.nom-coequipier a:hover {
+  text-decoration: underline;
+}
+
+.nom-coequipier {
+  font-size: 60px;
+  color: var(--secondary);
+  margin-bottom: 0.2em;
+  text-align: center;
+}
+/* Centrer le contenu de chaque membre */
+.member {
+  text-align: center;
+}
 /* Import JetBrains Mono (web font) */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
 
@@ -13,7 +57,6 @@
 body {
   background-color: var(--main-bg);
   color: var(--text);
-  /* Use web font with fallbacks; remove invalid 'regular' token */
   font-family: 'JetBrains Mono', Consolas, 'Courier New', monospace;
 }
 
@@ -23,9 +66,9 @@ h1 {
   font-size: 61px;
 }
 
-/* Make the brand name act as a home button */
+
 .top-bar h1 {
-  margin: 0; /* avoid extra vertical space */
+  margin: 0;
 }
 .brand-link {
   color: var(--text);
@@ -50,7 +93,6 @@ ul {
 
 }
 
-/* Services section with background image */
 .services-section {
   position: relative;
   background: url('images/index/index_image.png') center/cover no-repeat;
@@ -61,11 +103,11 @@ ul {
   display: flex;              /* permet d'utiliser margin-left:auto sur l'enfant */
 }
 
-/* Container (HTML uses class="services-list") pushed to the right */
+
 .services-list {
   width: fit-content;         /* prend juste la largeur du contenu */
   margin-left: auto;          /* pousse le bloc sur la droite */
-            /* aligne le texte interne à droite */
+            
 }
 
 
@@ -95,8 +137,8 @@ ul {
   cursor: pointer;
   justify-content: flex-end;
   border-radius: 8px;
-  text-decoration: none; /* works for <a> */
-  display: inline-block; /* size like a button */
+  text-decoration: none; 
+  display: inline-block; 
 
 }
 
