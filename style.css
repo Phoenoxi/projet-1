@@ -127,5 +127,6 @@ ul {
   height: auto;
   border-radius: 10px;
   margin-top: 20px;
-  border: 6px solid var(--secondary); /* Ajoute une bordure bleue */
+  border: 6px solid var(--secondary);
+  float: right; /* pousse l'image à droite */
 }
