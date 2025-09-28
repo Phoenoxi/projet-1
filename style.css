@@ -58,6 +58,8 @@ body {
   background: var(--main-bg);
   color: var(--text);
   font-family: 'JetBrains Mono', Consolas, 'Courier New', monospace;
+  width: 100vw;
+  margin: 0;
 }
 
 
