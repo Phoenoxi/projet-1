@@ -47,15 +47,15 @@
 
 /*Color Pallette*/
 :root {
-  --main-bg: #1B262C;
-  --accent-bg: #0F4C75;
-  --secondary: #3282B8;
-  --text: #BBE1FA;
+  --main-bg: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%,rgba(2,0,36,1) 100%); /* https://cssgradient.io/ */
+  --accent-bg: #05054b;
+  --secondary: #ffffff;
+  --text: #ffffff;
 }
 
 
 body {
-  background-color: var(--main-bg);
+  background: var(--main-bg);
   color: var(--text);
   font-family: 'JetBrains Mono', Consolas, 'Courier New', monospace;
 }

@@ -15,8 +15,9 @@
 .image-projets {
   width: 850px;
   height: auto;
-  border: 5px solid var(--text);
+  border: 5px solid black;
     border-radius: 16px;
+  
 
 }
 .center {
@@ -32,6 +33,7 @@
 .droite {
   display: flex;
     justify-content: center;
+
 
 }
 .espace-bas {
