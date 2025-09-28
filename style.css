@@ -47,17 +47,19 @@
 
 /*Color Pallette*/
 :root {
-  --main-bg: #1B262C;
-  --accent-bg: #0F4C75;
-  --secondary: #3282B8;
-  --text: #BBE1FA;
+  --main-bg: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%,rgba(2,0,36,1) 100%); /* https://cssgradient.io/ */
+  --accent-bg: #05054b;
+  --secondary: #ffffff;
+  --text: #ffffff;
 }
 
 
 body {
-  background-color: var(--main-bg);
+  background: var(--main-bg);
   color: var(--text);
   font-family: 'JetBrains Mono', Consolas, 'Courier New', monospace;
+  width: 100vw;
+  margin: 0;
 }
 
 
@@ -150,24 +152,4 @@ ul {
   gap: 20px;
   align-items: center;
   border-radius: 8px;
-}
-
-.projets {
-  font-size: 20px;
-}
-
-.projets h1 {
-  font-size: 50px;
-}
-
-.projets p {
-  font-size: 20px;
-}
-
-.image-projets {
-  width: 600px;
-  height: auto;
-  border-radius: 10px;
-  margin-top: 20px;
-  border: 6px solid var(--secondary); /* Ajoute une bordure bleue */
 }

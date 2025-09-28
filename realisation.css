@@ -1,0 +1,46 @@
+.projets{
+  font-size: 100px;
+  padding-bottom: 60PX;
+  text-align: center;
+}
+
+.projets h1 {
+  font-size: 75px;
+}
+
+.projets p {
+  font-size: 35px;
+}
+
+.image-projets {
+  width: 850px;
+  height: auto;
+  border: 5px solid black;
+    border-radius: 16px;
+  
+
+}
+.center {
+ text-align: center;
+}
+.gauche {
+  float: left;
+  width: 50%;
+
+
+ 
+}
+.droite {
+  display: flex;
+    justify-content: center;
+
+
+}
+.espace-bas {
+  padding-bottom: 75px;
+}
+h1 {
+ text-align: top;
+ margin: 0;
+
+}
