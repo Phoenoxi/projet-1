@@ -151,24 +151,3 @@ ul {
   align-items: center;
   border-radius: 8px;
 }
-
-.projets {
-  font-size: 20px;
-}
-
-.projets h1 {
-  font-size: 50px;
-}
-
-.projets p {
-  font-size: 20px;
-}
-
-.image-projets {
-  width: 600px;
-  height: auto;
-  border-radius: 10px;
-  margin-top: 20px;
-  border: 6px solid var(--secondary);
-  float: right; /* pousse l'image à droite */
-}
